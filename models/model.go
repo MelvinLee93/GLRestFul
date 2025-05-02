@@ -1,5 +1,5 @@
 package models
-import "time"
+import"time"
 
 type Users struct {
     Id          int    `json:"id" db:"id"`
