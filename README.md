@@ -52,9 +52,9 @@ With the Postman program downloaded and opened, and with the API connected to th
         }
       }
     ```
-  4. **DELETE**: ensure the setting is changed to **DELETE** and then type ``http://localhost:8080/users/:id`` with ``:id`` denoting which entry do you wish to delete from the database (e.g. ``http://localhost:8080/users/:6``). If the execution is successful, you will get this message:
-   ```
+  4. **DELETE**: ensure the setting is changed to **DELETE** and then type ``http://localhost:8080/users/:id`` with ``:id`` denoting which entry do you wish to update within the database (e.g. ``http://localhost:8080/users/:6``). If the execution is successful, you will get this message:
+    ```
     {
-      "message": "An employee has been deleted"
+        "message": "An employee has been deleted"
     }
-   ```
+    ```
